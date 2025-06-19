@@ -1,7 +1,12 @@
+.banner-container .banner-wrapper {
+    max-width: unset;
+    padding: 0;
+  }
+
 .banner {
-    position: absolute;
+    position: relative;
     padding: 40px 24px;
-    margin: 1rem;
+    min-height: 300px;
   }
 
 .banner picture {
