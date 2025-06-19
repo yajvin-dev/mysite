@@ -5,11 +5,12 @@
 }
 
 .home-container, .home-wrapper {
-    max-width: auto;
+    max-width: 100%;
 }
 
 .home img {
     max-width: 600px;
+    max-height: auto;
     padding: 1rem;
 }
 
