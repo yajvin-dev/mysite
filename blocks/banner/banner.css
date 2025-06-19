@@ -1,4 +1,19 @@
-.banner > div{
-  background-color: blue;
-  max-width: 80%;
-}
+.banner {
+    position: relative;
+    padding: 40px 24px;
+    min-height: 300px;
+  }
+
+.banner picture {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    object-fit: cover;
+    box-sizing: border-box;
+  }
+
+  @media (width >= 900px) {
+    .banner {
+      padding: 40px 32px;
+    }
+  }
