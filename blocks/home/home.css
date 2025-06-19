@@ -16,4 +16,5 @@
 
 .home h1 {
     padding: 2rem;
+    z-index:10;
 }
