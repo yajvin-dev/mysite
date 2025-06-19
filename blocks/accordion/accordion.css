@@ -24,21 +24,21 @@
   content: '';
 }
 .accordion .item-title.open {
-    background: #dddddd;
+  background: #dddddd;
 }
 
 .accordion .item-title.open::after {
-    transform: rotate(-135deg) translateX(50%);
+  transform: rotate(-135deg) translateX(50%);
 }
 
 .accordion .item-content {
-    display: none;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    padding: 12px;
-    border-bottom: 1px solid #dddddd;
+  display: none;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding: 12px;
+  border-bottom: 1px solid #dddddd;
 }
 
 .accordion .item-title.open + .item-content {
-    display: grid;
+  display: grid;
 }
