@@ -1,3 +1,4 @@
-.banner {
+.banner > div{
   background-color: blue;
+  max-width: 80%;
 }
