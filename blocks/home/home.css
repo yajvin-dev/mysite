@@ -5,7 +5,8 @@
 }
 
 .home-container, .home-wrapper {
-    max-width: 100%;
+    max-width: unset;
+    padding: 0;
 }
 
 .home picture {
