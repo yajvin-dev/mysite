@@ -8,7 +8,11 @@
     max-width: auto;
 }
 
-.home picture {
+.home img {
     max-width: 600px;
     padding: 1rem;
+}
+
+.home h1 {
+    padding: 2rem;
 }
