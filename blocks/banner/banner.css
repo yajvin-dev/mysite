@@ -12,6 +12,11 @@
     box-sizing: border-box;
   }
 
+.banner img {
+    position: relative;
+    width:auto;
+}
+
   @media (width >= 900px) {
     .banner {
       padding: 40px 32px;
