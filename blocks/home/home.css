@@ -1,6 +1,7 @@
 .home {
     background-color: gray;
     height: 100%;
+    width: 100%;
 }
 
 .home-container, .home-wrapper {
@@ -8,7 +9,7 @@
 }
 
 .home picture {
-    width:100%;
+    width:fit-content;
     inset: 0;
     object-fit: cover;
     box-sizing: border-box;
